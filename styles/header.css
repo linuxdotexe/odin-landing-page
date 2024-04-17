@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 24px 400px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  font-weight: 700;
+  color: var(--accent);
+  transition: 0.4s;
+}

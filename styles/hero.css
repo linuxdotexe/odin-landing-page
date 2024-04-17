@@ -1,0 +1,48 @@
+.accent {
+  color: var(--accent);
+}
+
+.hero {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 48px;
+  align-items: center;
+  margin: 24px 400px;
+  padding: 50px 0px;
+}
+
+.content {
+  text-wrap: wrap;
+  flex: 50%;
+}
+
+img {
+  max-width: 500px;
+  aspect-ratio: 1.9/1;
+  object-fit: cover;
+  filter: hue-rotate(90deg);
+}
+
+h1 {
+  color: var(--text-primary);
+  font-size: 44px !important;
+  margin: auto !important;
+  font-weight: 900;
+}
+
+.content > p {
+  font-size: 18px;
+}
+
+.button {
+  background-color: var(--accent);
+  padding: 5px 20px;
+  color: var(--text-dark);
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.button:hover {
+  color: var(--text-dark);
+}
