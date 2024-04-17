@@ -1,0 +1,21 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  flex: 1 1 auto;
+  width: 1000px;
+  padding: 48px 0px;
+}
+
+blockquote {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.q-by {
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 24px;
+}

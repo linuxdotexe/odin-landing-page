@@ -1,0 +1,44 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bg-light);
+}
+
+.info > h1 {
+  margin: 48px auto !important;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.info > ul {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  background-color: var(--bg-light);
+}
+
+li {
+  list-style-type: none;
+  max-width: 200px;
+  background-color: var(--bg-light);
+}
+
+li > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  background-color: var(--bg-light);
+}
+
+li > p {
+  text-align: center;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+  font-weight: 600;
+}
+
+.info em {
+  color: var(--accent);
+}
