@@ -15,6 +15,9 @@
 * {
   font-family: "Hanken Grotesk", sans-serif;
   color: var(--text-secondary);
-  background-color: var(--bg-dark);
   letter-spacing: 0.5px;
+}
+
+body {
+  background-color: var(--bg-dark);
 }
